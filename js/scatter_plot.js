@@ -79,7 +79,7 @@ function run_scatter_build() {
   // get data
   console.log("loading data")
 
-  d3.csv("d3_tutorials/data/sample1000_withHeader.csv", function(error, rawData) {
+  d3.csv("/d3_tutorials/data/sample1000_withHeader.csv", function(error, rawData) {
     console.log("loaded data")
     build_graph(rawData);
   });
