@@ -2,6 +2,7 @@ function run_scatter_build() {
   // globals:
 
   var margin = {top: 20, right: 20, bottom: 30, left: 50},
+      //width = 960 - margin.left - margin.right,
       width = 960 - margin.left - margin.right,
       height = 500 - margin.top - margin.bottom;
 
@@ -14,12 +15,13 @@ function run_scatter_build() {
       .range([height, 0]);
 
   var size_scale = d3.scale.linear()
-      .range([1,6])
+      .range([6,10])
 
   var color = d3.scale.category10();
 
   var xAxis = d3.svg.axis()
       .scale(x)
+      .tickFormat(d3.time.format("%b-%d"))
       .orient("bottom");
 
   var yAxis = d3.svg.axis()
@@ -62,7 +64,8 @@ function run_scatter_build() {
         .attr("dy", ".71em")
         .style("text-anchor", "end")
         .text("Following Count")
-        .style("stroke","white");
+        .style("stroke","white")
+        .style("font-size",15);
 
     svg.selectAll(".dot")
         .data(tweetData)
@@ -76,7 +79,7 @@ function run_scatter_build() {
   // get data
   console.log("loading data")
 
-  d3.csv("data/parsed_json_with_header_100000.csv", function(error, rawData) {
+  d3.csv("/data/sample1000_withHeader.csv", function(error, rawData) {
     console.log("loaded data")
     build_graph(rawData);
   });

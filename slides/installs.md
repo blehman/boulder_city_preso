@@ -9,4 +9,5 @@
 *  [Install homebrew](http://brew.sh/)
 *  [Install JQ](http://stedolan.github.io/jq/download/)
 *  *[PARSE DATA](http://stedolan.github.io/jq/tutorial/)*
+*  [Visualize](http://d3js.org/)!
 

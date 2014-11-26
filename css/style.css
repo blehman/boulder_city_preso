@@ -1,11 +1,12 @@
 body {
-  font: 10px sans-serif;
+  font: 20px sans-serif;
 }
 
 .axis {
   fill: none;
   stroke: #fff;
   shape-rendering: crispEdges;
+  font-size: 10px;
 }
 
 .x.axis path {
