@@ -15,7 +15,7 @@ function run_scatter_build() {
       .range([height, 0]);
 
   var size_scale = d3.scale.linear()
-      .range([6,10])
+      .range([3,31])
 
   var color = d3.scale.category10();
 
@@ -74,12 +74,13 @@ function run_scatter_build() {
         .attr("r", function(d) { return size_scale(d.followersCount); })
         .attr("cx", function(d) { return x(d.timeStamp); })
         .attr("cy", function(d) { return y(d.followingCount); })
-        .style("fill", function(d) { return color(size_scale(d.followersCount)); });
+        .style("fill", function(d) { return color(size_scale(d.followersCount)); })
+        .style("opacity",0.9);
   };
   // get data
   console.log("loading data")
 
-  d3.csv("/d3_tutorials/data/sample1000_withHeader.csv", function(error, rawData) {
+  d3.csv("data/sample1000_withHeader.csv", function(error, rawData) {
     console.log("loaded data")
     build_graph(rawData);
   });

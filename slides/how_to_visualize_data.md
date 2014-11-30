@@ -1,4 +1,4 @@
-##What do we do with the data?
+##How do we science the data?
 * explore
 * visualize
 * zoom
