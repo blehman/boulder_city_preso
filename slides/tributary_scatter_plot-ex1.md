@@ -1,4 +1,3 @@
-##Let's do this!
+##LIVE D3
 ------
-###--[scatter plot example](http://tributary.io/inlet/256ebeba77a624f7cac9)--
-[D3 LIVE](http://tributary.io/inlet/256ebeba77a624f7cac9)
+##[bit.ly/d3scatterplot](http://tributary.io/inlet/256ebeba77a624f7cac9)
