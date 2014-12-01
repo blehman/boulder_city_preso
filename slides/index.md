@@ -1,6 +1,6 @@
 ## D3 + DS:   
 ###A Data Visualization Workshop
-####[bit.ly/d3workshop](http://blehman.github.io/d3_tutorials/)
+### #BoulderD3
 ----
 ####Thursday, December 4th
 ####5:00pm - 7:00pm
