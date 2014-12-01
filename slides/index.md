@@ -1,10 +1,11 @@
 ## D3 + DS:   
 ###A Data Visualization Workshop
+####[bit.ly/d3workshop](http://blehman.github.io/d3_tutorials/)
 ----
 ####Thursday, December 4th
 ####5:00pm - 7:00pm
-####[Farrand Hall](https://www.google.com/maps/place/Farrand+Hall,+2200+Baker+Dr,+Boulder,+CO+80310/@40.0060015,-105.2657851,17z/data=!3m1!4b1!4m2!3m1!1s0x876bedcb31c9da97:0x24a2b2c10bebd2ca)
-####[bit.ly/d3workshop](http://blehman.github.io/d3_tutorials/)
+####[Flemming Building - Idea Forge Active Learning Classroom](https://www.google.com/maps/place/Idea+Forge,+Boulder,+CO+80305/@40.002007,-105.263393,17z/data=!4m7!1m4!3m3!1s0x876bedb575700325:0xa2ea7393cf7c4c6d!2sIdea+Forge,+Boulder,+CO+80305!3b1!3m1!1s0x876bedb575700325:0xa2ea7393cf7c4c6d)
+
 ----
 ####Twitter Data Science
 ####[@BrianLehman](https://twitter.com/brianlehman)
