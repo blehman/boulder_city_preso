@@ -6,7 +6,7 @@ body {
   fill: none;
   stroke: #fff;
   shape-rendering: crispEdges;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .x.axis path {
@@ -18,4 +18,9 @@ body {
   fill: none;
   stroke: steelblue;
   stroke-width: 1.5px;
+}
+
+.dot {
+  fill:red;
+  opacity:0.5;
 }
