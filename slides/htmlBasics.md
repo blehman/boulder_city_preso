@@ -5,8 +5,8 @@
 3.  Change elements' attributes.
 4.  Modify elements with CSS styling.
 ----
-####[bit.ly/practiceD3](http://blehman.github.io/data_manipulation/)
-####Please use a Chrome browser
+####**please use a Chrome browser**: [bit.ly/practiceD3](http://blehman.github.io/data_manipulation/)
+
 
 Note:
 d3.select("body")

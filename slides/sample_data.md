@@ -1,4 +1,10 @@
-##Sample Data
+##Sample Data  
+ -----
+####  One month of tweets about Ebola  
+####  Total tweets: 2,856,548  
+####  Sample size:  1,000  
+####  Relevant information parsed into csv   
+----
 <pre>
 timeStamp,displayName,followersCount,followingCount,listedCount,statusesCount,activityType,ID
 2014-10-01T00:18:44.000Z,influenza_bio,1403,732,64,9278,Retweet,517106301500141568  
@@ -9,5 +15,6 @@ timeStamp,displayName,followersCount,followingCount,listedCount,statusesCount,ac
 2014-10-01T02:01:57.000Z,Mr_BuddyLee,566,552,14,28740,Retweet,517132275579125760  
 2014-10-01T02:06:37.000Z,wcollier33,494,1337,4,10545,Retweet,517133449984237568  
 2014-10-01T02:39:37.000Z,ajones139,292,243,1,18057,Retweet,517141755536621568  
-2014-10-01T02:54:04.000Z,BURNS_calories,319,266,2,5436,Retweet,517145394942590976  
+2014-10-01T02:54:04.000Z,BURNS_calories,319,266,2,5436,Retweet,517145394942590976
+...  
 </pre>
