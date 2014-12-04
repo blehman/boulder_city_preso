@@ -6,21 +6,17 @@ body {
   fill: none;
   stroke: #fff;
   shape-rendering: crispEdges;
-  font-size: 20px;
-}
-
-.x.axis path {
-  stroke: #fff;
-  /*display: none;*/
+  font-size: 15px;
 }
 
 .line {
   fill: none;
-  stroke: steelblue;
+  stroke: #fff;
   stroke-width: 1.5px;
 }
-
-.dot {
+  
+.initialCircle{
   fill:red;
   opacity:0.5;
+  stroke:red;
 }

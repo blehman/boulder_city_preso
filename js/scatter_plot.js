@@ -86,7 +86,7 @@ function run_scatter_build() {
   });
 };
 
-Reveal.addEventListener('scatter', function(event) {
+Reveal.addEventListener('scatterInitial', function(event) {
    if (!d3.select("#scatterSVG").classed("finished")){
       run_scatter_build();
       d3.select("#scatterSVG")

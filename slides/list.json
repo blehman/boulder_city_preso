@@ -1,4 +1,5 @@
 ["index.md"
+,"happy_place.html"
 ,"Hult_tweet.md"
 ,"the_data.md"
 ,"data_process.md"
@@ -10,4 +11,7 @@
 ,"scatter_plot_graph.html"
 ,"tributary_scatter_plot-ex1.md"
 ,"legend_scaffolding.md"
-,"event_handler_scaffolding.md"]
+,"event_handler_scaffolding.md"
+,"scatter_plot_final_graph.html"
+,"scatter_plot_final_practice.md"
+,"bye.md"]

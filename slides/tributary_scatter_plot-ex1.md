@@ -4,8 +4,8 @@
 ------
 ###Teamwork Outcome #1
 ####<a href="http://e.ggtimer.com/5minutes" target="_blank">(5 minutes)</a> 
-  
-1.  facts 
-2.  questions/interpretations 
-3.  ideas for iterations  
+
+1.  Describe - list the facts. 
+2.  Analyze - develop interpretations. 
+3.  Judgement - build questions and create ideas for iterations. 
 
