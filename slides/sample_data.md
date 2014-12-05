@@ -1,7 +1,7 @@
 ##Sample Data  
  -----
-####  One month of tweets about Ebola  
-####  Total tweets: 2,856,548  
+####  One month of Tweets about Ebola  
+####  Total Tweets: 2,856,548  
 ####  Sample size:  1,000  
 ####  Relevant information parsed into csv   
 ----
