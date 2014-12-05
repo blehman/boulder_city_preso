@@ -64,21 +64,6 @@ var legend_content = d3.select("#scatterFinal").append("g");
 var legend_text = d3.select("#scatterFinal").append("g");
 var legend_circles_radius = 5;
 
-
-//var l = d3.scale.linear()
-//		.range([legend_height*0.9,0])
-//var legendAxis = d3.svg.axis()
-//		.scale(l)
-//		.orient("left")
-// set domanin
-//console.log("[min,max]",d3.extent(tweetData,function(d){return d.listedCount})) 
-//l.domain(d3.extent(tweetData,function(d){return d.listedCount}))
-
-// adds the y axis and some added css
-//legend.append("g")
-//     .attr("class", "y axis")
-//     .call(legendAxis)
-
 var fake_data = ["GOOD STUFF","BAD STUFF","REGULAR STUFF","BEST STUFF"];
 var color = d3.scale.category10();
 var upperY = 14;
@@ -191,6 +176,15 @@ legend_content.attr("transform","translate(" + content_x_transform + "," + conte
       .style("text-anchor", "end") // additional css (http://mzl.la/1rC7zya)
       .text("Followers")
       .style("stroke","white"); // we can override the css here
+  
+  // changes the x axis css that does not include the "Following" label
+  d3.selectAll(".x.axis .tick text")
+      .style("text-anchor", "end")
+      .attr("dx", "-0.497664em")
+      .attr("dy", ".1em")
+    .attr("transform", function(d) {
+                return "rotate(-65)" 
+                });
 
   // joins the data, creates the circles, classes the circles as 'dot'
   circles = svg.selectAll(".dots")
