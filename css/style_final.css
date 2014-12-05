@@ -2,12 +2,6 @@ body {
   font: 20px sans-serif;
 }
 
-.axis {
-  fill: #fff;
-  stroke: #fff;
-  shape-rendering: crispEdges;
-  font-size: 15px;
-}
 
 .lines {
   fill: none;
