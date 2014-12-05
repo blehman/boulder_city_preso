@@ -3,7 +3,6 @@ body {
 }
 
 .axis {
-  fill: none;
   stroke: #fff;
   shape-rendering: crispEdges;
   font-size: 15px;
