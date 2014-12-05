@@ -3,7 +3,7 @@ body {
 }
 
 .axis {
-  fill: none;
+  fill: #fff;
   stroke: #fff;
   shape-rendering: crispEdges;
   font-size: 15px;
@@ -11,7 +11,7 @@ body {
 
 .lines {
   fill: none;
-  stroke: black;
+  stroke: #fff;
   stroke-width: 1.5px;
   opacity:0.5
 }
