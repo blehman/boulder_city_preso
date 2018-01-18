@@ -1,14 +1,14 @@
-## D3 + DS:   
-###A Data Visualization Workshop
-### #BoulderD3
+### City of Boulder
+### Innovation Strategy
+#### Role: Innovation & Analytics Manager
 ----
-####Thursday, December 4th
-####5:00pm - 7:00pm
-####[Flemming Building - Idea Forge Active Learning Classroom](https://www.google.com/maps/place/Idea+Forge,+Boulder,+CO+80305/@40.002007,-105.263393,17z/data=!4m7!1m4!3m3!1s0x876bedb575700325:0xa2ea7393cf7c4c6d!2sIdea+Forge,+Boulder,+CO+80305!3b1!3m1!1s0x876bedb575700325:0xa2ea7393cf7c4c6d)
+####Thursday, January 18th
+####A 10 minute presentation on the implementation of Boulder's innovation strategy
 
 ----
-####Twitter Data Science
 ####[@BrianLehman](https://twitter.com/brianlehman)
 
-Note: I work with data; specifically data from Tweets. What's in a tweet? Well, while people are still getting settled, I'm going to let a duo explain the a common element in a tweet body known as the hashtag.
+Note:
 
+1) Presentation: Please prepare a 10 minute presentation discussing how you would implement the innovation strategy the City launched last year. More on the strategy can be found here, here and here.
+2) Questions: Please be prepared to meet with city staff to talk about your experience and ideas on a variety of topics.
